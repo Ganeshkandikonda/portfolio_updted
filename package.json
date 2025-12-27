@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://YOUR_GITHUB_USERNAME.github.io/elite_3d_ai_portfolio",
+  "homepage": "https://ganeshkandikonda.github.io/portfolio_updted",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -11,19 +11,19 @@
     "deploy": "npm run build && npx gh-pages -d dist"
   },
   "dependencies": {
+    "@react-three/drei": "^9.102.6",
+    "@react-three/fiber": "^8.15.19",
+    "framer-motion": "^11.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "three": "^0.161.0",
-    "@react-three/fiber": "^8.15.19",
-    "@react-three/drei": "^9.102.6",
-    "framer-motion": "^11.0.0"
+    "three": "^0.161.0"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.2.0",
-    "vite": "^5.0.0",
-    "tailwindcss": "^3.4.1",
-    "postcss": "^8.4.35",
     "autoprefixer": "^10.4.17",
-    "gh-pages": "^6.1.1"
+    "gh-pages": "^6.3.0",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1",
+    "vite": "^5.0.0"
   }
 }
